@@ -11,3 +11,5 @@ def solution(array):
             mode += 1
     
     return count.index(max(count)) if mode == 1 else -1 # 배열.index(값) => 배열 안에 해당 값의 index 구하는 방법
+
+    #count.count(max(count)) 로 최빈값 개수 구할 수 있음
